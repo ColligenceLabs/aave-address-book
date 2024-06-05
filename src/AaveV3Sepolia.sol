@@ -73,8 +73,8 @@ library AaveV3Sepolia {
   // https://sepolia.etherscan.io/address/0x8A294edFB7F1679e393994b36218Bc4ec310Dd82
   address internal constant WETH_GATEWAY = 0x8A294edFB7F1679e393994b36218Bc4ec310Dd82;
 
-  // https://sepolia.etherscan.io/address/0x8Ce0B61E78c313acf4cA0895ba01CF637775f4Dd
-  address internal constant STATIC_A_TOKEN_FACTORY = 0x8Ce0B61E78c313acf4cA0895ba01CF637775f4Dd;
+  // https://sepolia.etherscan.io/address/0xEfB71127484C2B7443161714Bd5652FE2274e8dA
+  address internal constant STATIC_A_TOKEN_FACTORY = 0xEfB71127484C2B7443161714Bd5652FE2274e8dA;
 
   // https://sepolia.etherscan.io/address/0x1bc7faac29EE71C96e5102cc5A094C568362cf10
   address internal constant UI_GHO_DATA_PROVIDER = 0x1bc7faac29EE71C96e5102cc5A094C568362cf10;
