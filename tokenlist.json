@@ -2347,6 +2347,66 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "name": "USDe",
+      "decimals": 18,
+      "symbol": "USDe",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4F5923Fc5FD4a93352581b38B7cD26943012DECF",
+      "name": "Aave Ethereum USDe",
+      "decimals": 18,
+      "symbol": "aEthUSDe",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+      "name": "ETHx",
+      "decimals": 18,
+      "symbol": "ETHx",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1c0E06a0b1A4c160c17545FF2A951bfcA57C0002",
+      "name": "Aave Ethereum ETHx",
+      "decimals": 18,
+      "symbol": "aEthETHx",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "name": "Staked USDe",
+      "decimals": 18,
+      "symbol": "sUSDe",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4579a27aF00A62C0EB156349f31B345c08386419",
+      "name": "Aave Ethereum sUSDe",
+      "decimals": 18,
+      "symbol": "aEthsUSDe",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+      }
+    },
+    {
       "chainId": 137,
       "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
       "name": "Aave Polygon DAI",
@@ -6023,6 +6083,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 17 },
-  "timestamp": "2024-06-05T00:00:57.542Z"
+  "version": { "major": 3, "minor": 0, "patch": 18 },
+  "timestamp": "2024-07-02T00:28:07.380Z"
 }
