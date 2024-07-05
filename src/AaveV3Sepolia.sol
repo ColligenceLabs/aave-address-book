@@ -73,8 +73,8 @@ library AaveV3Sepolia {
   // https://sepolia.etherscan.io/address/0x8A294edFB7F1679e393994b36218Bc4ec310Dd82
   address internal constant WETH_GATEWAY = 0x8A294edFB7F1679e393994b36218Bc4ec310Dd82;
 
-  // https://sepolia.etherscan.io/address/0x848d642b279Df21C6Bc1be3933866A34b28A84D6
-  address internal constant STATIC_A_TOKEN_FACTORY = 0x848d642b279Df21C6Bc1be3933866A34b28A84D6;
+  // https://sepolia.etherscan.io/address/0x05cE4b7b1b7AFeCA3B1511B29250c243546366a8
+  address internal constant STATIC_A_TOKEN_FACTORY = 0x05cE4b7b1b7AFeCA3B1511B29250c243546366a8;
 
   // https://sepolia.etherscan.io/address/0x1bc7faac29EE71C96e5102cc5A094C568362cf10
   address internal constant UI_GHO_DATA_PROVIDER = 0x1bc7faac29EE71C96e5102cc5A094C568362cf10;
@@ -116,8 +116,8 @@ library AaveV3SepoliaAssets {
   // https://sepolia.etherscan.io/address/0xA7f6fDE9f414C2cd2A35e028B377Ec733A1bA103
   address internal constant DAI_S_TOKEN = 0xA7f6fDE9f414C2cd2A35e028B377Ec733A1bA103;
 
-  // https://sepolia.etherscan.io/address/0xcD6290eB9aEf7C30A48A8282DdEb22Ae8d99d8C7
-  address internal constant DAI_ORACLE = 0xcD6290eB9aEf7C30A48A8282DdEb22Ae8d99d8C7;
+  // https://sepolia.etherscan.io/address/0x3Dd453662F6F57F35110Ca2D60d7aDa8c1b8112E
+  address internal constant DAI_ORACLE = 0x3Dd453662F6F57F35110Ca2D60d7aDa8c1b8112E;
 
   // https://sepolia.etherscan.io/address/0xBF9E96481B3f412073742ddE3285CDceaD991dc4
   address internal constant DAI_INTEREST_RATE_STRATEGY = 0xBF9E96481B3f412073742ddE3285CDceaD991dc4;
@@ -136,8 +136,8 @@ library AaveV3SepoliaAssets {
   // https://sepolia.etherscan.io/address/0xD0d4Cf56bF139976138340F073F0506795e70b5d
   address internal constant USDC_S_TOKEN = 0xD0d4Cf56bF139976138340F073F0506795e70b5d;
 
-  // https://sepolia.etherscan.io/address/0xb0CFD94d3d6d4265C25c50F7D1C1DA759e269552
-  address internal constant USDC_ORACLE = 0xb0CFD94d3d6d4265C25c50F7D1C1DA759e269552;
+  // https://sepolia.etherscan.io/address/0xbAc7D857138F7d7c15a24f41a92E54224789C4B1
+  address internal constant USDC_ORACLE = 0xbAc7D857138F7d7c15a24f41a92E54224789C4B1;
 
   // https://sepolia.etherscan.io/address/0xF1131C7A3F5696bC7530823af7c5c31358e8D14A
   address internal constant USDC_INTEREST_RATE_STRATEGY =

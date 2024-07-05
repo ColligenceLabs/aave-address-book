@@ -1,5 +1,5 @@
 import {appendFileSync, existsSync, mkdirSync, readdirSync, rmSync, writeFileSync} from 'fs';
-import {governanceConfigMainnet} from './configs/governance/ethereum';
+import { governanceConfigMainnet, governanceConfigSepolia } from "./configs/governance/ethereum";
 import {arbitrumProtoV3, arbitrumSepoliaProtoV3} from './configs/pools/arbitrum';
 import {
   avalancheProtoV2,
@@ -70,7 +70,7 @@ async function main() {
   // generate files
   const governanceNames = await Promise.all(
     [
-      // governanceConfigSepolia,
+      // governanceConfigSepolia, // TODO : 에러 발생... 실제 컨트랙 주소로 교체, 특히 VOTING_MACHINE
       governanceConfigMainnet,
       governanceConfigArbitrum,
       governanceConfigAvalanche,

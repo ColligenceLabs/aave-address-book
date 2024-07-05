@@ -15,4 +15,7 @@ library MiscSepolia {
   // https://sepolia.etherscan.io/address/0xaFc3BF553B4F6B22fB0d226306B5BDcE60B45aD9
   address internal constant GHO_FLASHMINTER_FACILITATOR =
     0xaFc3BF553B4F6B22fB0d226306B5BDcE60B45aD9;
+
+  // https://sepolia.etherscan.io/address/0x7B92e514C5A5295bEC14f94BDD951c7E32797093
+  address internal constant ECOSYSTEM_RESERVE = 0x7B92e514C5A5295bEC14f94BDD951c7E32797093;
 }
